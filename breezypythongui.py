@@ -1,23 +1,7 @@
 """
-File: breezypythongui.py
-Version: 1.1
-Copyright 2012, 2013 by Ken Lambert
-
-Resources for easy Python GUIs.
-
-LICENSE: This is open-source software released under the terms of the
-GPL (http://www.gnu.org/licenses/gpl.html).  Its capabilities mirror those 
-of BreezyGUI and BreezySwing, open-source frameworks for writing GUIs in Java,
-written by Ken Lambert and Martin Osborne.
-
-PLATFORMS: The package is a wrapper around Tkinter (Python 3.X) and should
-run on any platform where Tkinter is available.
-
-INSTALLATION: Put this file where Python can see it.
-
-RELEASE NOTES: Version 1.1 now includes the class EasyPanel, for organizing
-subpanes in windows and dialogs (updated 12-19-2012).  Version 1.1 now also
-runs on either Python 3.x.x or Python 2.x.x (updated 2-4-2013).
+Carl Bechie
+CIS 185
+ex 10.8
 
 """
 

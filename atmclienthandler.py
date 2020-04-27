@@ -1,14 +1,7 @@
 """
-File: atmclienthandler.py
-Project 10.6
-Client handler for ATM. Receives Bank object from
-the server, and accesses acccounts via login requests.
-Request syntax:
-LOGIN name pin
-LOGOUT
-BALANCE
-DEPOSIT amount
-WITHDRAW amount
+Carl Bechie
+CIS 185
+ex 10.8
 """
 
 from socket import *

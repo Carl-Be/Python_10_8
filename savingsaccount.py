@@ -1,6 +1,7 @@
 """
-File: savingsaccount.py
-This module defines the SavingsAccount class.
+Carl Bechie
+CIS 185
+ex 10.8
 """
 
 class SavingsAccount:

@@ -1,11 +1,11 @@
 """
-File: bank.py
-This module defines the SavingsAccount and Bank classes.
+Carl Bechie
+CIS 185
+ex 10.8
 """
 import pickle
 import random
-from savingsaccount import SavingsAccount
-
+from threadsafesavingsaccount import ThreadSafeSavingsAccount
 class Bank:
     """This class represents a bank as a collection of savnings accounts.
     An optional file name is also associated
@@ -96,12 +96,15 @@ def createBank(numAccounts = 1):
     for pinNumber in range(1000, upperPin):
         name = random.choice(names)
         balance = float(random.randint(100, 1000))
-        bank.add(SavingsAccount(name, str(pinNumber), balance))
+        bank.add(ThreadSafeSavingsAccount(name, str(pinNumber), balance))
+
+
+
     return bank
 
 def testAccount():
     """Test function for savings account."""
-    account = SavingsAccount("Ken", "1000", 500.00)
+    account = ThreadSafeSavingsAccount("Ken", "1000", 500.00)
     print(account)
     print(account.deposit(100))
     print("Expect 600:", account.getBalance())

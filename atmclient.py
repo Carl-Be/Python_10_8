@@ -1,9 +1,7 @@
 """
-File: atmclient.py
-Project 10.6
-This module defines the ATMClient class, which provides a window
-for bank customers to perform deposits, withdrawals, and check
-balances remotely via a client.
+Carl Bechie
+CIS 185
+ex 10.8
 """
 
 from socket import *

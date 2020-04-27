@@ -1,7 +1,7 @@
 """
-File: threadsafesavingsaccount.py
-Project 10.8
-This module defines a thread-safe SavingsAccount class.
+Carl Bechie
+CIS 185
+ex 10.8
 """
 
 from savingsaccount import SavingsAccount

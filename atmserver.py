@@ -1,8 +1,7 @@
 """
-File: atmserver.py
-Project 10.6
-Server for providing ATM access.
-Uses client handlers to handle clients' requests.
+Carl Bechie
+CIS 185
+ex 10.8
 """
 
 from socket import *
